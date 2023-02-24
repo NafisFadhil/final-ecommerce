@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+	html {
+		font-size: 75%;
+	}
+
+	#toggle {
+		display: inline-block;
+	}
+
+	.nav-menu {
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		width: 20rem;
+		background-color: #fff;
+		height: 100vh;
+		padding: 1rem;
+		transition: .3s ease-in-out;
+	}
+
+	.nav-menu.active {
+		right: 0;
+	}
+
+	.nav-menu a {
+		display: block;
+		font-size: 2rem;
+	}
+}
+
+
+@media (max-width: 600px) {
+	html {
+		font-size: 55%;
+	}
+
+	#close-side {
+		display: inline-block;
+	}
+}
